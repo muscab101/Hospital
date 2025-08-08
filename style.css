@@ -3,7 +3,7 @@
     list-style-type: none;
     text-decoration: none;
     margin: 0;
-    padding: 0:
+    padding: 0;
 }
 
 header {
@@ -173,4 +173,69 @@ header {
     justify-content: center;
     gap: 3rem;
     margin-top: 60px;
+}
+
+.five {
+    background-color: white;
+    height: 55vh;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.s-five {
+    display: flex;
+    justify-content: start;
+    margin-left: 4rem;
+    margin-top: 60px;
+    gap: 5rem;
+}
+
+.section-five {
+    background-color: #11BCC7;
+    width: 100%;
+    height: 200vh;
+    margin-top: 70px;
+}
+
+.s-five-text {
+    margin-top: 80px;
+}
+
+.s-five-box {
+    background-color: white;
+    height: 40vh;
+    width: 650px;
+    margin-top: 90px;
+    margin-left: 350px;
+     border-radius: 10px;
+}
+
+.s-five-inputs {
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.s-five-inputs input {
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.s-five-inputs button {
+    width: 140px;
+    background-color: #17787E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.footer {
+    display: flex;
+    gap: 5rem;
+    margin-top: 30px;
+    justify-content: space-around;
+    color: white;
 }
